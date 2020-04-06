@@ -1,0 +1,29 @@
+{
+  "name": "lab-07",
+  "version": "1.0.0",
+  "description": "## Project: Express",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint **/*.js",
+    "test": "jest --verbose --coverage",
+    "test-watch": "jest --watchAll --verbose --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daniel-nguyen-401-advanced-javascript/lab-07.git"
+  },
+  "author": "daniel nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daniel-nguyen-401-advanced-javascript/lab-07/issues"
+  },
+  "homepage": "https://github.com/daniel-nguyen-401-advanced-javascript/lab-07#readme",
+  "dependencies": {
+    "jest": "^25.2.7"
+  }
+}

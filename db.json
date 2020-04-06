@@ -1,0 +1,33 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "utensils",
+      "display_name": "cutlery",
+      "description": "things folks use to eat food"
+    },
+    {
+      "id": 2,
+      "name": "flatware",
+      "display_name": "plates",
+      "description": "dishes, plates, tableware, things you eat on"
+    } 
+  ],
+  "products": [
+    {
+      "id": 1,
+      "category": "utensils",
+      "name": "sharp knife",
+      "display_name": "Hattori Hanzo Blade",
+      "description": "Quentin Tarantino makes weird movies. ... At one point in the homage to kung fu action films, she travels to Japan to visit a character named Hattori Hanzo, who once created legendary samurai swords of unparalleled quality. But he's sworn an oath to stop making them" 
+    },
+    {
+      "id": 2,
+      "category": "flatware",
+      "name": "very flat plate",
+      "display_name": "Salt Flats Eatin Mat",
+      "description": "The Bonneville Salt Flats are a densely packed salt pan in Tooele County in northwestern Utah. The area is a remnant of the Pleistocene Lake Bonneville and is the largest of many salt flats located west of the Great Salt Lake. This plate looks like that mkay."
+    }
+
+  ]
+}
