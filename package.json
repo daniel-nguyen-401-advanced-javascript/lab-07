@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/daniel-nguyen-401-advanced-javascript/lab-07#readme",
   "dependencies": {
-    "jest": "^25.2.7"
+    "@code-fellows/supergoose": "^1.0.2",
+    "jest": "^25.3.0"
   }
 }
