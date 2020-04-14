@@ -6,7 +6,7 @@
 
 ### Links and Resources
 
-- [submission PR](https://github.com/daniel-nguyen-401-advanced-javascript/lab-07/pull/2)
+- [submission PR](https://github.com/daniel-nguyen-401-advanced-javascript/lab-07/pull/4)
 - [ci/cd]() (GitHub Actions)
 - [back-end server url](NA) 
 - [front-end application](NA)
