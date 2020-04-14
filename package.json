@@ -34,4 +34,6 @@
     "morgan": "^1.10.0"
   },
   "devDependencies": {}
+    "morgan": "^1.10.0"
+  }
 }
