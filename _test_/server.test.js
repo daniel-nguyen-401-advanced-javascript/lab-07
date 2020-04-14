@@ -2,7 +2,6 @@
 
 const app = require('../lib/server.js');
 const supergoose = require('@code-fellows/supergoose');
-
 const mockRequest = supergoose(app.server);
 
 describe('products routes work', () => {
@@ -49,17 +48,16 @@ describe('products routes work', () => {
     });
 
     it('can post a product', async () => {
-    //   let newProductData = {
-    //     category: 'test product',
-    //     name: 'new product',
-    //     display_name: 'new product display',
-    //     description: 'test description'
-    // };
+      let newProductData = {
+        category: 'test product',
+        name: 'new product',
+        display_name: 'new product display',
+        description: 'test description'
+    };
 
-    // let response = await mockRequest.post('/products').send(newProductData);
+    let response = await mockRequest.post('/products').send(newProductData);
 
-    // expect(JSON.stringify(response.body)).toBe(JSON.stringify({}))
-    expect(false).toBe(true);
+    expect(JSON.stringify(response.body)).toBe(JSON.stringify({category: 'test product', name: 'new product', display_name: 'new product display', description: 'test description', id: 3 }))
   });
 
   it('can delete a product', async () => {
@@ -93,9 +91,22 @@ describe('categories routes work', () => {
       expect(response.status).toBe(200);
   });
 
-  it('can update a product', async () => {
+  it('can update a category', async () => {
  
-      expect(false).toBe(true);
+    let newCategoryData = {
+      name: 'new category',
+      display_name: 'new display name',
+      description: 'test description',
+    };
+
+    let response = await mockRequest.put('/categories/1').send(newCategoryData);
+    
+    expect(JSON.stringify(response.body)).toBe(JSON.stringify({ name: 'new category',
+      display_name: 'new display name',
+      description: 'test description', id: '1'}),
+    );
+
+    expect(response.status).toBe(200);
     
     });
   });
