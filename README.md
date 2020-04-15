@@ -6,7 +6,7 @@
 
 ### Links and Resources
 
-- [submission PR](https://github.com/daniel-nguyen-401-advanced-javascript/lab-07/pull/4)
+- [submission PR](https://github.com/daniel-nguyen-401-advanced-javascript/lab-07/pull/5)
 - [ci/cd]() (GitHub Actions)
 - [back-end server url](NA) 
 - [front-end application](NA)
@@ -30,7 +30,8 @@ N/A
 - N/A
 
 #### How to use your library (where applicable)
-
+- npm start
+- npm test
 
 #### Tests
 
